@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Iniciar Pareto Anywhere (Debug)",
+      "program": "${workspaceFolder}/bin/pareto-anywhere",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Iniciar Pareto Anywhere (Sin Debug)",
+      "program": "${workspaceFolder}/bin/pareto-anywhere",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "noDebug": true
+    }
+  ]
+}
